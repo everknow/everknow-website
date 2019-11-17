@@ -6,9 +6,9 @@
   <style type="text/css">
     .scr {
       position: relative;
-      max-width: 600px;
-      height: 400px;
-      background: lightgray;
+      /*max-width: 600px;*/
+      height: 500px;
+      background: #e8e8e8;
       overflow: hidden;
     }
 
@@ -35,26 +35,32 @@
       top: 5px;
     }
 
+    div {
+      font-family: sans-serif;
+      font-size: 30px;
+    }
+
   </style>
 </head>
 <body>
 
 <div id="mc">
   <div id="siz" class="scr">
-    <div class="w">USER Jor</div><div class="e">MONEY TRANSFER</div><HR style="position: relative;top: 20px">
+    <div class="w">USER Jor</div><div class="e">MONEY TRANSFER</div><HR style="position: relative;top: 30px">
     <svg width="100%" height="100%">
-      <circle r="50" cx="100" cy="110" style="fill: #52a1ff"></circle>
-      <text x="100" y="50" text-anchor="middle">TOKENS</text>
-      <text x="100" y="110" text-anchor="middle" dominant-baseline="central">10.6</text>
-      <rect id="card" height="100" width="160" rx="10" ry="10" y="60" style="fill: darkorange"></rect>
-      <text id="card_balance" y="110" text-anchor="middle" dominant-baseline="central">11.6</text>
-      <text id="card_header" y="50" text-anchor="middle">CREDIT CARD</text>
-      <circle r="50" cx="100" cy="260" style="fill: #b3ff77"></circle>
-      <text x="100" y="260" text-anchor="middle" dominant-baseline="central">12.6</text>
-      <text x="100" y="330" text-anchor="middle">BALANCE</text>
-      <rect id="world" height="100" width="160" rx="10" ry="10" y="210" style="fill: #9c9cff" onclick="select_recipient()"></rect>
-      <text id="world_recipient" y="260" text-anchor="middle" dominant-baseline="central" onclick="select_recipient()">Select a Recipient</text>
-      <text id="world_header" y="330" text-anchor="middle">WORLD</text>
+      <circle r="50" cx="100" cy="120" style="fill: #52a1ff"></circle>
+      <text x="100" y="60" text-anchor="middle">TOKENS</text>
+      <text x="100" y="120" text-anchor="middle" dominant-baseline="central">10.6</text>
+      <rect id="card" height="100" width="160" rx="10" ry="10" y="70" style="fill: darkorange"></rect>
+      <text id="card_balance" y="120" text-anchor="middle" dominant-baseline="central">11.6</text>
+      <text id="card_header" y="60" text-anchor="middle">CREDIT CARD</text>
+
+      <circle r="50" cx="100" cy="320" style="fill: #b3ff77"></circle>
+      <text x="100" y="320" text-anchor="middle" dominant-baseline="central">12.6</text>
+      <text x="100" y="400" text-anchor="middle">BALANCE</text>
+      <rect id="world" height="100" width="160" rx="10" ry="10" y="270" style="fill: #9c9cff" onclick="select_recipient()"></rect>
+      <text id="world_recipient" y="320" text-anchor="middle" dominant-baseline="central" onclick="select_recipient()">Select</text>
+      <text id="world_header" y="400" text-anchor="middle">WORLD</text>
     </svg>
   </div>
 </div>
