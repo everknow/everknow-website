@@ -97,6 +97,7 @@
 <script>
   $W=WebSocket;p='prototype';loc=window.location; $s={d:undefined};
   function bid(k){return document.getElementById(k);}
+  function be(e){return e instanceof TouchEvent? e.changedTouches[0]: e}
   var customer = loc.pathname.split('/')[1];
   var bal=10;
   change(bid("r1").value);
@@ -107,7 +108,7 @@
     bid("svg").appendChild($s.d);bid("tok").innerHTML=(0).toFixed(2);
     };
   s=window;
-  s.onmousemove=s.ontouchmove=function(e){if($s.d){$s.d.setAttribute("x", e.clientX-150); $s.d.setAttribute("y", e.clientY-180); console.log("dragging"+$s.d);}};
+  s.onmousemove=s.ontouchmove=function(e){var bev=be(e);if($s.d){$s.d.setAttribute("x", bev.clientX-150); $s.d.setAttribute("y", bev.clientY-180); console.log("dragging"+$s.d);}};
   s.onmouseup=s.ontouchend=function(){if($s.d){$s.d.remove();
     if (!$s.dropped || $s.dropped == "world_recipient" && bid($s.dropped).innerHTML == "Select") {bid("tok").innerHTML= $s.d.getElementById("tok").innerHTML;}
     else {
