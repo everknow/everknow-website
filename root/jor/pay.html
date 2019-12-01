@@ -115,7 +115,7 @@
   s.onmouseup=s.ontouchend=function(e){var bev=be(e); var x= bev.clientX; var y = bev.clientY; if($s.d){$s.d.remove();
     if (hits(x,y,bid("card").getBBox())) {
       bid("card_balance").innerHTML = $s.d.getElementById("tok").innerHTML;
-    } else if (hits(x,y,bid("world").getBBox()) && bid($s.dropped).innerHTML != "Select") {
+    } else if (hits(x,y,bid("world").getBBox()) && bid("world_recipient").innerHTML != "Select") {
       alert("Sending "+$s.d.getElementById("tok").innerHTML+" to "+bid("world_recipient").innerHTML);
     } else {
       bid("tok").innerHTML= $s.d.getElementById("tok").innerHTML;
