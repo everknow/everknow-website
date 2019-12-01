@@ -98,30 +98,29 @@
   $W=WebSocket;p='prototype';loc=window.location; $s={d:undefined};
   function bid(k){return document.getElementById(k);}
   function be(e){return e instanceof TouchEvent? e.changedTouches[0]: e}
+  function hits(x,y,b) {return x>b.x && x<b.x+b.width && y>b.y && y<b.y+b.height;}
   var customer = loc.pathname.split('/')[1];
   var bal=10;
   change(bid("r1").value);
   go();
   window.addEventListener('resize', go);
   s = bid("tc");
-  s.onmousedown=s.ontouchstart=function(e){$s.dropped=undefined;$s.d=this.cloneNode(true);$s.d.setAttribute("id", "tcd");$s.d.setAttribute("style", "pointer-events:none;");
+  s.onmousedown=s.ontouchstart=function(e){$s.dropped=undefined;$s.d=this.cloneNode(true);$s.d.setAttribute("id", "tcd");
+//    $s.d.setAttribute("style", "pointer-events:none;");
+//    $s.d.children().map(function (x) {x.setAttribute("style", "pointer-events:none;");});
     bid("svg").appendChild($s.d);bid("tok").innerHTML=(0).toFixed(2);
     };
   s=window;
   s.onmousemove=s.ontouchmove=function(e){var bev=be(e);if($s.d){$s.d.setAttribute("x", bev.clientX-150); $s.d.setAttribute("y", bev.clientY-180); console.log("dragging"+$s.d);}};
-  s.onmouseup=s.ontouchend=function(){if($s.d){$s.d.remove();
-    if (!$s.dropped || $s.dropped == "world_recipient" && bid($s.dropped).innerHTML == "Select") {bid("tok").innerHTML= $s.d.getElementById("tok").innerHTML;}
-    else {
-      if($s.dropped == "card_balance"){bid($s.dropped).innerHTML = $s.d.getElementById("tok").innerHTML;}
-      if($s.dropped == "world_recipient"){alert("Sending "+$s.d.getElementById("tok").innerHTML+" to "+bid($s.dropped).innerHTML)}
+  s.onmouseup=s.ontouchend=function(e){var bev=be(e); var x= bev.clientX; var y = bev.clientY; if($s.d){$s.d.remove();
+    if (hits(x,y,bid("card").getBBox())) {
+      bid("card_balance").innerHTML = $s.d.getElementById("tok").innerHTML;
+    } else if (hits(x,y,bid("world").getBBox()) && bid($s.dropped).innerHTML != "Select") {
+      alert("Sending "+$s.d.getElementById("tok").innerHTML+" to "+bid("world_recipient").innerHTML);
+    } else {
+      bid("tok").innerHTML= $s.d.getElementById("tok").innerHTML;
     }
     $s.d=undefined;}};
-  s = bid("cc");
-  s.onmouseup=s.ontouchend=function(){$s.dropped="card_balance";};
-  s = bid("ww");
-  s.onmouseup=s.ontouchend=function(){$s.dropped="world_recipient";};
-
-
 
   function go(){
     bid("customer").innerHTML = "USER " + customer.substring(0,1).toUpperCase() + customer.substring(1).toLowerCase();
