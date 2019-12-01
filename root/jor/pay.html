@@ -134,7 +134,7 @@
   }
 
   function select_recipient() {
-    var cands = ["Jor", "Rai", "Rup", "Dom"].filter(function(x){return x!=customer});
+    var cands = ["Jor", "Rai", "Rup", "Dom"].filter(function(x){return x.toLowerCase()!=customer});
     var recipient = prompt("Please enter a recipient among "+ cands , cands[0]);
 
     if (cands.indexOf(recipient)>-1) {
