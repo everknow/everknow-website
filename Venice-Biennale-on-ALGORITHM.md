@@ -98,3 +98,5 @@ a collective to conduct our explorations, and we ought to devote our effort towa
 collaboratively rather than competitively. Algorithms in this sense is not something that we
 should perceive as obscure and distant, but rather something that enhances and extends
 our reach into the unknown.
+
+The Original post is available on the [THINKING HEAD](http://www.thinking-head.net/sites/default/files/distraction/Dominic%20Perini%20-%20On%20Algorithms.pdf) website
