@@ -1,8 +1,8 @@
 About Everknow
 ==============
 
-Business area
--------------
+Business areas
+--------------
 
 what we will do
 
