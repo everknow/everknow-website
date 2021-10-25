@@ -52,3 +52,6 @@ Contact us form
 Blog
 ----
 
+[Venice Biennale](Venice-Biennale-on-ALGORITHM.md)
+
+
