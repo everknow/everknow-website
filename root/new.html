@@ -93,10 +93,10 @@ function getPage(url) {
 
 const renderer = {
   link(href, title, text) {
-    if (!href.startsWith("https://") && !href.startsWith("https://")) {
+    if (href.startsWith("https://") || href.startsWith("http://")) {
       return `
         <p>
-          <a href="#" onclick='getPage("https://raw.githubusercontent.com/everknow/everknow-website/master/${href}")'${title?`title="${title}`:""}>
+          <a href="${href}"${title?`title="${title}`:""}>
             ${text}
           </a>
         </p>
@@ -104,7 +104,7 @@ const renderer = {
     } else {
       return `
         <p>
-          <a href="${href}"${title?`title="${title}`:""}>
+          <a href="#" onclick='getPage("https://raw.githubusercontent.com/everknow/everknow-website/master/${href}")'${title?`title="${title}`:""}>
             ${text}
           </a>
         </p>
