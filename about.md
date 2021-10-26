@@ -4,7 +4,7 @@ About Everknow
 Business areas
 --------------
 
-what we do
+what we will do
 
 *   Solutions
 *   R&D
