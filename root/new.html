@@ -91,6 +91,30 @@ function getPage(url) {
   }
 }
 
+const renderer = {
+  link(href, title, text) {
+    if (!href.startsWith("https://") && !href.startsWith("https://")) {
+      return `
+        <p>
+          <a href="#" onclick='getPage("https://raw.githubusercontent.com/everknow/everknow-website/master/${href}")'${title?`title="${title}`:""}">
+            ${text}
+          </a>
+        </p>
+      `;
+    } else {
+      return `
+        <p>
+          <a href="${href}"${title?`title="${title}`:""}">
+            ${text}
+          </a>
+        </p>
+      `;
+    }
+  }
+}
+
+marked.use({ renderer });
+
 function embedPage() {
   if (request.readyState == 4) {
     var val = request.responseText;
