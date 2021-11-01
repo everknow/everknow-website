@@ -4,6 +4,10 @@ About Everknow
 Business areas
 --------------
 
+[this goes to google](https://www.google.com)
+
+[this goes to page2](page2.md)
+
 what we will do
 
 *   Solutions
