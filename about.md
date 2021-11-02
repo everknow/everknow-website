@@ -54,6 +54,10 @@ We adopt procedures that contribute to ensuring modern slavery does not occur in
 
 
 Sustainability pledges: diversity / Carbon footprint etc
+--------------------------------------------------------
+We believe we can be a successful business and do good to protect our people and the planet for future generations to come.
+We are motivated to drive change within our own organisation whilst working with our partners, our supply chain, and supporting our customers on their socially responsible journey through the technology we provide
+
 
 Contact us form
 ---------------
