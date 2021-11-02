@@ -17,6 +17,9 @@ what we will do
 *   Smart Contracts
 *   Consultancy
 
+If you need help assisting and delivering EverKnow expert consultants and contractors can be hired anywhere in the world. EverKnow offer support from individual consultants on a project to complete teams taking full ownership of the deliverable. Often a project starts with a business analyst / solution architect who will engage further full time consultants on the team as the project develops. As the project development progresses and internal confidence increases, their presence may reduce but they will always be available to answer questions
+
+EverKnow pride ourselves on being able to work with you across time zones so no matter what your physical global location the same exceptional standards of project delivery will be provided by us. We support the successful delivery of your project through well established and dedicated Project Management and communications processes that facilitate the efficient technical consultancy for which we are known
 
 Company culture  
 ---------------
