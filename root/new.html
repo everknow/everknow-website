@@ -118,7 +118,7 @@ marked.use({ renderer });
 function embedPage() {
   if (request.readyState == 4) {
     var val = request.responseText;
-    document.getElementById('page').innerHTML = marked(val);
+    document.getElementById('page').innerHTML = window.marked.marked(val);
   }
 }
 
