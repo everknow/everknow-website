@@ -19,6 +19,8 @@ full-cycle development services, from comprehensive engineering technology princ
 *   Token economics
 *   Governance
 *   Smart Contracts
+Smart contracts are programs stored on a blockchain that run when predetermined conditions are met. They typically are used to automate the execution of an agreement so that all participants can be immediately certain of the outcome, without any intermediary’s involvement or time loss. They can also automate a workflow, triggering the next action when conditions are met.
+
 *   Consultancy
 
 If you need help assisting and delivering EverKnow expert consultants and contractors can be hired anywhere in the world. EverKnow offer support from individual consultants on a project to complete teams taking full ownership of the deliverable. Often a project starts with a business analyst / solution architect who will engage further full time consultants on the team as the project develops. As the project development progresses and internal confidence increases, their presence may reduce but they will always be available to answer questions
