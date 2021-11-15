@@ -8,8 +8,6 @@ Business areas
 
 [this goes to page2](page2.md)
 
-what we will do
-
 EverKnow DAO
 
 Decentralized autonomous organizations (DAO) are fast becoming the standard for projects creating self-sustainable applications and services around the blockchain industry. DAO unlocks new opportunities by enabling users to contribute and vote on changes.
