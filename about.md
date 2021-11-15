@@ -14,7 +14,11 @@ EverKnow DAO
 
 Decentralized autonomous organizations (DAO) are fast becoming the standard for projects creating self-sustainable applications and services around the blockchain industry. DAO unlocks new opportunities by enabling users to contribute and vote on changes.
 
-DAO’s can for example, be used to hold members funds and allocate based on community decisions. There are many uses already including social, media, investment, venture, art. 
+DAO’s can for example, be used to hold members funds and allocate based on community decisions. There are many uses already including social, media, investment, venture, art.
+
+
+Ever Know DLT
+Distributed Ledger Technology (DLT) is the infrastructure and protocols that allows simultaneous access, validation, and record updating in an immutable manner across a network that's spread across multiple entities or locations. The decentralized digital database eliminates the need for a central authority to keep a check against manipulation and is governed by the rules of the network. 
 
 
 *   Solutions
