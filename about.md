@@ -26,11 +26,13 @@ Ever Know are expert in DAO and DLT, contact us to discuss your individual requi
  Ever Know products enable industries to revamp their core functionality with blockchain technology. Our public, permissioned, or private blockchain-based industrial solutions bring automation security, traceability, and immutability, and transparency across all the business processes.
 
 *   R&D
+
 full-cycle development services, from comprehensive engineering technology principle strategy to end-to-end development of scalable solutions. Our Custom Software Development adapts seamlessly to your project requirements and business needs.
 
 *   Token economics
 *   Governance
 *   Smart Contracts
+
 Smart contracts are programs stored on a blockchain that run when predetermined conditions are met. They typically are used to automate the execution of an agreement so that all participants can be immediately certain of the outcome, without any intermediary’s involvement or time loss. They can also automate a workflow, triggering the next action when conditions are met.
 
 *   Consultancy
