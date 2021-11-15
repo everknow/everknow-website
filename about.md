@@ -10,6 +10,13 @@ Business areas
 
 what we will do
 
+EverKnow DAO
+
+Decentralized autonomous organizations (DAO) are fast becoming the standard for projects creating self-sustainable applications and services around the blockchain industry. DAO unlocks new opportunities by enabling users to contribute and vote on changes.
+
+DAO’s can for example, be used to hold members funds and allocate based on community decisions. There are many uses already including social, media, investment, venture, art. 
+
+
 *   Solutions
  enable industries to revamp their core functionality with blockchain technology. Our public, permissioned, or private blockchain-based industrial solutions bring automation security, traceability, and immutability, and transparency across all the business processes.
 
