@@ -24,7 +24,7 @@ Distributed Ledger Technology (DLT) is the infrastructure and protocols that all
 Ever Know are expert in DAO and DLT, contact us to discuss your individual requirments. 
 
 *   Solutions
- enable industries to revamp their core functionality with blockchain technology. Our public, permissioned, or private blockchain-based industrial solutions bring automation security, traceability, and immutability, and transparency across all the business processes.
+ Ever Know products enable industries to revamp their core functionality with blockchain technology. Our public, permissioned, or private blockchain-based industrial solutions bring automation security, traceability, and immutability, and transparency across all the business processes.
 
 *   R&D
 full-cycle development services, from comprehensive engineering technology principle strategy to end-to-end development of scalable solutions. Our Custom Software Development adapts seamlessly to your project requirements and business needs.
