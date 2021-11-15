@@ -21,6 +21,7 @@ Ever Know DLT
 
 Distributed Ledger Technology (DLT) is the infrastructure and protocols that allows simultaneous access, validation, and record updating in an immutable manner across a network that's spread across multiple entities or locations. The decentralized digital database eliminates the need for a central authority to keep a check against manipulation and is governed by the rules of the network. 
 
+Ever Know are expert in DAO and DLT, contact us to discuss your individual requirments. 
 
 *   Solutions
  enable industries to revamp their core functionality with blockchain technology. Our public, permissioned, or private blockchain-based industrial solutions bring automation security, traceability, and immutability, and transparency across all the business processes.
