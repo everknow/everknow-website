@@ -1,21 +1,19 @@
-About Everknow
-==============
+# About Everknow
 
-Business areas
---------------
+## Business areas
 
 [this goes to google](https://www.google.com)
 
 [this goes to page2](page2.md)
 
-EverKnow DAO
+## EverKnow DAO
 
 Decentralized autonomous organizations (DAO) are fast becoming the standard for projects creating self-sustainable applications and services around the blockchain industry. DAO unlocks new opportunities by enabling users to contribute and vote on changes.
 
 DAO’s can for example, be used to hold members funds and allocate based on community decisions. There are many uses already including social, media, investment, venture, art.
 
 
-Ever Know DLT
+## Ever Know DLT
 
 Distributed Ledger Technology (DLT) is the infrastructure and protocols that allows simultaneous access, validation, and record updating in an immutable manner across a network that's spread across multiple entities or locations. The decentralized digital database eliminates the need for a central authority to keep a check against manipulation and is governed by the rules of the network. 
 
@@ -41,8 +39,7 @@ If you need help assisting and delivering EverKnow expert consultants and contra
 
 EverKnow pride ourselves on being able to work with you across time zones so no matter what your physical global location the same exceptional standards of project delivery will be provided by us. We support the successful delivery of your project through well established and dedicated Project Management and communications processes that facilitate the efficient technical consultancy for which we are known
 
-Company culture  
----------------
+## Company culture  
 
 *   Polyglot developers  
     (philosophy: we use the right tool for the job, e.g. Rust, C, Go, Java, Elixir, Haskell, Python.. )
@@ -56,37 +53,31 @@ Company culture
 *   Scalability and Distribution
 *   Adaptation
 
-Team
-----
+## Team
 
-Case Studies
-------------
+## Case Studies
 
-Previous projects
+## Previous projects
 
-Legal
------
+## Legal
 
 Standard terms and conditions
 
-Anti slavery / Anti bribary content
------------------------------------
+## Anti slavery / Anti bribery content
 We strive to be a great place to work for EverKnow people. We want our employees to be fully engaged with our Company and motivated to give their all and we want their contribution to be recognised and rewarded.
 We will therefore not tolerate forced, bonded or compulsory labour, human trafficking and other kinds of slavery within our own operations or within our supply chain and are committed to taking appropriate steps to ensure that everyone who works for EverKnow – in any capacity – benefits from a working environment in which their fundamental rights and freedoms are respected.
 We adopt procedures that contribute to ensuring modern slavery does not occur in our business or supply chains and we expect organisations with whom we do business to adopt and enforce policies to comply with the legislation.
 
 
-Sustainability pledges: diversity / Carbon footprint etc
---------------------------------------------------------
+## Sustainability pledges: diversity / Carbon footprint etc
+
 We believe we can be a successful business and do good to protect our people and the planet for future generations to come.
 We are motivated to drive change within our own organisation whilst working with our partners, our supply chain, and supporting our customers on their socially responsible journey through the technology we provide
 
 
-Contact us form
----------------
+## Contact us form
 
-Blog
-----
+## Blog
 
 [Venice Biennale](Venice-Biennale-on-ALGORITHM.md)
 

@@ -1,0 +1,35 @@
+      
+Hello and welcome to this new born digital enterprise called **EverKnow** &trade;.
+
+This is the beginning of an exciting journey which will gradually roll out unconventional and revolutionary technology to drive a new form of what the industry currently calls "Smart Contracts".
+
+A new friendly approach and terminology will be introduced as a strategy to lower the entry barrier and ensure better inclusion in what nowadays happens to be an area of expertise reserved to a small elite.
+
+That's right, we are designing tools that are simple, intuitive, natural!
+
+All the complexity operating on the back will be accessible on demand, as the intention is also to provide transparency and explain why EverKnow and user defined artifacts produce an outcome.
+
+Together with our **[mocda.org](https://mocda.org)** partners we will involve creative minds in this process.
+
+We concluded that only unconventional thinking can unleash a large scale potential for digital innovation.
+
+If you are interested, or have the impression that your creativity is encased into frameworks defined by mainstream social and technological corporations, be most welcome to join us in our journey.
+
+The tools we produce would be initially tailored after artists, in response to the need to create, preserve and protect their digital creations.
+
+We strongly believe that the desire to explore new forms of creativity and auto-determine the rules by which digital artifacts are governed and protected, are the true motivation behind a movement that has led to the surge of the present forms of decentralised technology.
+
+However we interpret the substantial incapacity to give adequate response to these fundamental ambitions as the main reason why the enthusiasm and involvement in decentralised technologies is somehow still limited, and has seen a predominant trend in speculative trading of fungible assets in the form of digital currencies.
+
+Instead of trying to replicate familiar forms of trading and governance dynamics, we have the ambition to explore new uncharted models of social interaction.
+
+There is a new world of possibility to discover as we expand our horizon together.
+
+The founder **[Dominic Perini](https://www.linkedin.com/in/dominic-perini-83540722/)**, is at present leading this effort and would be delighted to receive feedback you might want to share as he progresses on this research.
+
+Eventually, source code and more importantly anonymised artifact will be shared and traded on the digital market.
+
+For who is interested the technology stack is built using Erlang, C, and JavaScript.
+
+A post including some considerations on the **[EverKnow vision on algorithm](https://github.com/domhaobaobao/everknow-website/blob/master/Venice-Biennale-on-ALGORITHM.md)** has been published on the **[Thinking Head](http://www.thinking-head.net)** website, a project promoted by the 2019 Venice Biennale and led by Lara Favaretto.
+    
