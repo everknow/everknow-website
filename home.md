@@ -9,7 +9,7 @@ That's right, we are designing tools that are simple, intuitive, natural!
 
 All the complexity operating on the back will be accessible on demand, as the intention is also to provide transparency and explain why EverKnow and user defined artifacts produce an outcome.
 
-Together with our **[mocda.org](https://mocda.org)** partners we will involve creative minds in this process.
+Together with our [**mocda.org**](https://mocda.org) partners we will involve creative minds in this process.
 
 We concluded that only unconventional thinking can unleash a large scale potential for digital innovation.
 
