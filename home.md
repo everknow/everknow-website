@@ -1,6 +1,6 @@
-Ever Know is a new network which forcuses around people and automation.
+Ever Know is a new network which focuses around people and automation.
 
-One of the primary mission is to create technology that uses new friendly approaches and terminology to lower the entry barrier and allow for enhanced user experiences and better inclusion. Expanding one's reach in the digital space should be simple, intuitive, natural.
+One of the primary mission is to create technology that uses friendly approaches and terminology to lower the entry barrier and allow for enhanced user experiences and better inclusion. Expanding one's reach in the digital space should be simple, intuitive, natural.
 
 We are expert in DAO and DLT, contact us to discuss your individual requirments. 
 
