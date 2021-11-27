@@ -14,7 +14,7 @@
 
   <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top py-0" style="background-color: #333333;">
-      <a class="navbar-brand mb-0 d-flex align-items-center" href="#home.md" onclick='getPage("home.md")'>
+      <a class="navbar-brand mb-0 d-flex align-items-center" href="#" onclick='getPage("home.md")'>
         <img src="img/ek.png" width="32" height="32" class="ms-2 mt-1">
         <span class="h1 ms-2 mb-0">EverKnow</span>
       </a>
@@ -122,9 +122,12 @@ marked.use({ renderer });
 
 function embedPage(href) {
   if (request.readyState == 4) {
+    if(href=="home.md") {
+      // history.replaceState(null, "", window.location.pathname);
+    }
     var val = request.responseText;
     document.getElementById('page').innerHTML = window.marked.marked(val);
-    history.pushState(null, "", href=="home.md"?"":`#${href}`)
+    window.scrollTo({ top: 0});
   }
 }
 
@@ -133,6 +136,10 @@ if(window.location.hash) {
 } else {
   getPage("home.md")
 }
+
+window.onpopstate = function(event) {
+  alert("location: " + document.location + ", state: " + JSON.stringify(event.state));
+};
 
 </script>
 
