@@ -110,7 +110,7 @@ const renderer = {
       `;
     } else {
       return `
-        <a href="#" onclick='getPage(${href})'${title?`title="${title}`:""}>
+        <a href="#${href}" onclick='getPage(${href})'${title?`title="${title}`:""}>
           ${text}
         </a>
       `;
