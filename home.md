@@ -18,7 +18,7 @@ full-cycle development services, from comprehensive engineering technology princ
     (philosophy: we use the right tool for the job, e.g. Rust, C, Go, Java, Elixir, Haskell, Python.. )
 *   Multi chain support  
     (we believe in interoperability and our products aim to integrate with all popular chains)
-*   Algorithmic and data structures  
+*   Algorithms and data structures  
     (we will use open source libraries where appropriate, but also have the skills to implement bespoke algorithms and data structures)
 *   Scientific capabilities  
     (we can use scientific best practices towards research, rely on state of the art solutions and go beyond by introducing innovations to be published or patented)
@@ -56,5 +56,5 @@ We have the ambition to explore new uncharted models of social interaction that 
 
 There is a new world of possibility to discover as we expand our horizon together.
 
-Please be welcome to visit some example of our creative thinking on **algorithms** in collaboration with the **[Venice Biannale 2019](https://github.com/domhaobaobao/everknow-website/blob/master/Venice-Biennale-on-ALGORITHM.md)** published on the **[Thinking Head](http://www.thinking-head.net)**.
+Please be welcome to visit some example of our creative thinking on **algorithms** in collaboration with the **[Venice Biannale 2019](Venice-Biennale-on-ALGORITHM.md)** published on the **[Thinking Head](http://www.thinking-head.net)**.
     

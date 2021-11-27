@@ -2,7 +2,6 @@
 <head>
   <link rel="icon" type="image/png" sizes="32x32" href="img/ek.png" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-  <link href="starter-template.css" rel="stylesheet">
   <style>
     @import url('https://fonts.googleapis.com/css?family=Jura');
     body {
@@ -27,13 +26,10 @@
         <ul class="navbar-nav mr-auto">
 
           <li class="nav-item active">
-            <a class="nav-link" href="#">DLT</a>
+            <a class="nav-link" href="#dlt.md" onclick='getPage("dlt.md")'>DLT</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">DAO</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Scalability</a>
+            <a class="nav-link" href="#dao.md" onclick='getPage("dlt.md")'>DAO</a>
           </li>
 
           <li class="nav-item d-flex align-items-center">
@@ -84,7 +80,8 @@
 
 var request;
 
-function getPage(url) {
+function getPage(href) {
+  url = `https://raw.githubusercontent.com/everknow/everknow-website/master/${href}`;
 
   if (window.XMLHttpRequest) {
     request = new XMLHttpRequest();
@@ -94,7 +91,7 @@ function getPage(url) {
   }
 
   try {
-    request.onreadystatechange = embedPage;
+    request.onreadystatechange = function(){embedPage(href)};
     request.open("GET", url, true);
     request.send();
   }
@@ -107,19 +104,15 @@ const renderer = {
   link(href, title, text) {
     if (href.startsWith("https://") || href.startsWith("http://")) {
       return `
-        <p>
-          <a href="${href}"${title?`title="${title}`:""}>
-            ${text}
-          </a>
-        </p>
+        <a href="${href}"${title?`title="${title}`:""}>
+          ${text}
+        </a>
       `;
     } else {
       return `
-        <p>
-          <a href="#" onclick='getPage("https://raw.githubusercontent.com/everknow/everknow-website/master/${href}")'${title?`title="${title}`:""}>
-            ${text}
-          </a>
-        </p>
+        <a href="#" onclick='getPage(${href})'${title?`title="${title}`:""}>
+          ${text}
+        </a>
       `;
     }
   }
@@ -127,14 +120,19 @@ const renderer = {
 
 marked.use({ renderer });
 
-function embedPage() {
+function embedPage(href) {
   if (request.readyState == 4) {
     var val = request.responseText;
     document.getElementById('page').innerHTML = window.marked.marked(val);
+    history.pushState(null, "", href=="home.md"?"":`#${href}`)
   }
 }
 
-getPage("https://raw.githubusercontent.com/everknow/everknow-website/master/home.md")
+if(window.location.hash) {
+  getPage(window.location.hash.substring(1))
+} else {
+  getPage("home.md")
+}
 
 </script>
 
