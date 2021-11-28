@@ -14,7 +14,7 @@
 
   <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top py-0" style="background-color: #333333;">
-      <a class="navbar-brand mb-0 d-flex align-items-center" href="#" onclick='getPage("home.md")'>
+      <a class="navbar-brand mb-0 d-flex align-items-center" href="#home.md">
         <img src="img/ek.png" width="32" height="32" class="ms-2 mt-1">
         <span class="h1 ms-2 mb-0">EverKnow</span>
       </a>
@@ -26,10 +26,10 @@
         <ul class="navbar-nav mr-auto">
 
           <li class="nav-item active">
-            <a class="nav-link" href="#dlt.md" onclick='getPage("dlt.md")'>DLT</a>
+            <a class="nav-link" href="#dlt.md">DLT</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#dao.md" onclick='getPage("dao.md")'>DAO</a>
+            <a class="nav-link" href="#dao.md">DAO</a>
           </li>
 
           <li class="nav-item d-flex align-items-center">
@@ -79,8 +79,10 @@
 <script>
 
 var request;
+var currentPage;
 
 function getPage(href) {
+  currentPage = href;
   url = `https://raw.githubusercontent.com/everknow/everknow-website/master/${href}`;
 
   if (window.XMLHttpRequest) {
@@ -104,13 +106,13 @@ const renderer = {
   link(href, title, text) {
     if (href.startsWith("https://") || href.startsWith("http://")) {
       return `
-        <a href="${href}"${title?`title="${title}`:""}>
+        <a href="${href}"${title?` title="${title}`:""}>
           ${text}
         </a>
       `;
     } else {
       return `
-        <a href="#${href}" onclick='getPage("${href}")'${title?`title="${title}`:""}>
+      <a href="#${href}"${title?` title="${title}`:""}>
           ${text}
         </a>
       `;
@@ -122,8 +124,8 @@ marked.use({ renderer });
 
 function embedPage(href) {
   if (request.readyState == 4) {
-    if(href=="home.md") {
-      // history.replaceState(null, "", window.location.pathname);
+    if (href=="home.md") {
+      history.replaceState(null, "", window.location.pathname);
     }
     var val = request.responseText;
     document.getElementById('page').innerHTML = window.marked.marked(val);
@@ -132,13 +134,17 @@ function embedPage(href) {
 }
 
 if(window.location.hash) {
-  getPage(window.location.hash.substring(1))
+  getPage(window.location.hash.substring(1));
 } else {
-  getPage("home.md")
+  getPage("home.md");
 }
 
 window.onpopstate = function(event) {
-  alert("location: " + document.location + ", state: " + JSON.stringify(event.state));
+  if(window.location.hash) {
+    getPage(window.location.hash.substring(1));
+  } else {
+    getPage("home.md");
+  }
 };
 
 </script>
