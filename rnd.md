@@ -1,13 +1,12 @@
 
 ## Interoperability 
 
+|[![ilp](img/ilp.png)](https://interledger.org)|[![ibc](img/cosmos.png)](https://cosmos.network)|[![substrate](img/substrate.png)](https://substrate.io)
+| :--- | :----: | ---: |
+
 Our research into interoperability leverages and combines cutting edge features produced in the context of a pool of prominent solutions such as [IBC](https://ibc.cosmos.network/), [ILP](https://interledger.org) and [Substrate](https://substrate.io)
 
-[![ilp](img/ilp.png)](https://interledger.org)
 
-[![ibc](img/cosmos.png)](https://cosmos.network)
-
-[![substrate](img/substrate.png)](https://substrate.io)
 
 The primary objective is to support a range of distributed application by fine tuning performance, decentralisation, transparency and trust in accordance to the requirements and finding the ideal compromise for each specific use case
 

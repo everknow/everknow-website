@@ -126,6 +126,19 @@ const renderer = {
         </div>
       </h${level}>
     `;
+  },
+  image(href, title, text) {
+    return`<BR><img src="${href}">`;
+  },
+  table(header, body) {
+    if (body) body = `<tbody>${body}</tbody>`;
+
+    return '<table style="width:100%">\n'
+      + '<thead>\n'
+      + header
+      + '</thead>\n'
+      + body
+      + '</table><BR>\n';
   }
 
 }
