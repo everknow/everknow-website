@@ -1,3 +1,0 @@
-Distributed Ledger Technology (DLT) is the infrastructure and protocols that allows simultaneous access, validation, and record updating in an immutable manner across a network that's spread across multiple entities or locations. The decentralized digital database eliminates the need for a central authority to keep a check against manipulation and is governed by the rules of the network. 
-
-[home](home.md)

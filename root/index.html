@@ -26,13 +26,10 @@
         <ul class="navbar-nav mr-auto">
 
           <li class="nav-item active">
-            <a class="nav-link" href="#dlt.md">DLT</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#dao.md">DAO</a>
-          </li>
-          <li class="nav-item active">
             <a class="nav-link" href="#rnd.md">R&D</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#consultancy.md">Consultancy</a>
           </li>
 
           <li class="nav-item d-flex align-items-center">
@@ -86,7 +83,7 @@ var currentPage;
 
 function getPage(href) {
   currentPage = href;
-  url = `https://raw.githubusercontent.com/everknow/everknow-website/master/${href}`;
+  url = `file:///home/dominic/dev/everknow-website/${href}`;
 
   if (window.XMLHttpRequest) {
     request = new XMLHttpRequest();
