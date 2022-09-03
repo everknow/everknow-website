@@ -29,12 +29,12 @@ Together with our **[mocda.org](https://mocda.org)** partners we collaborate wit
 
 If you are interested, or have the impression that your creativity could benefit from technological enhancements be most welcome to join us in our journey.
 
-We strongly believe that the desire to explore new forms of creativity and auto-determine the rules by which digital artifacts are governed and protected, are the true motivation behind a movement that has led to the surge of the present forms of decentralised technology.
+We strongly believe that the desire to embrace new forms of creativity and auto-determine the rules by which digital artifacts are governed and protected, are the true motivation behind a movement that has led to the surge of the present forms of decentralised technology.
 
-We have the ambition to explore new uncharted models of social interaction that go beyond our daily etablished routines.
+We have the ambition to explore new uncharted models of social interaction that go beyond the state of the art.
 
 There is a new world of possibility to discover as we expand our horizon together.
 
 Please be welcome to visit some example of our creative thinking on **algorithms** in collaboration with the **[Venice Biannale 2019](Venice-Biennale-on-ALGORITHM.md)** published on the **[Thinking Head](http://www.thinking-head.net)**.
 
-Also find out more about **[MoCDA's Collection Case Study](mocda-collection-case-study.md)**
+Also find out more about MoCDA's **[Collection Case Study](mocda-collection-case-study.md)**

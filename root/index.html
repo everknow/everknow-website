@@ -112,12 +112,22 @@ const renderer = {
       `;
     } else {
       return `
-      <a href="#${href}"${title?` title="${title}`:""}>
+        <a href="#${href}"${title?` title="${title}`:""}>
           ${text}
         </a>
       `;
     }
+  },
+  heading(text, level) {
+    return `
+      <h${level}>
+        <div style="text-decoration: underline;">
+          ${text}
+        </div>
+      </h${level}>
+    `;
   }
+
 }
 
 marked.use({ renderer });
