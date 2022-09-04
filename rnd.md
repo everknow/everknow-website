@@ -52,6 +52,10 @@ EverKnow is actively researching into novel forms of governance that can be fair
 
 Smart contracts are programs stored on a blockchain that run when predetermined conditions are met. They typically are used to automate the execution of an agreement so that all participants can be immediately certain of the outcome, without any intermediary’s involvement or time loss. They can also automate a workflow, triggering the next action when conditions are met.
 
-The industry has embraced for a number of years the 
+The industry has embraced for a number of years the approach introduced by the Ethereum network and supported by its Virtual Machine (EVM). One of the attractive aspects of smart contracts is that their source code, which contains the rules by which interactions are handled, is normally available for inspection and, once stored on chain, it is guaranteed to be immutable and therefore its outcome can be predicted.
+
+Smart contracts in the Ethereum network however require the presence of a virtual machine to execute. This often limits, in terms of performance, expressiveness and economic suistainability the automations that can be designed on top of it.
+
+This is another area where EverKnow are committed to research for innovation. This can range from the utilization of a broader variety of programming languages, to the production of enhanced virtual machines.
 
 [home](home.md)
