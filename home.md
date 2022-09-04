@@ -1,15 +1,16 @@
-EverKnow is a new network which focuses around people and automation.
+EverKnow is a new network which focuses on people and automation.
 
 One of the primary mission is to create technology that uses friendly approaches and terminology to lower the entry barrier and allow for enhanced user experiences and better inclusion. Expanding one's reach in the digital space should be simple, intuitive, natural.
 
-We are expert in DAO and DLT, contact us to discuss your individual requirments. 
+We are experts in Distributed Ledger Technology (DLT) and governance, contact us to discuss your individual requirments. 
 
 ## Solutions
 
-EverKnow's products enable industries to revamp their core functionality with blockchain technology. Our public, permissioned, or private blockchain-based industrial solutions bring automation security, traceability, and immutability, and transparency across all the business processes.
+EverKnow's products enable industries to revamp their core functionality with blockchain technology. Our public, permissioned, or private blockchain-based industrial solutions bring security, traceability, immutability, and transparency across all the business processes and automations.
 
 We provide full-cycle development services, from comprehensive engineering technology principle strategy to end-to-end development of scalable solutions. Our Custom Software Development adapts seamlessly to your project requirements and business needs.
 
+We are also experts in driving Research and Development (R&D) projects, directly and/or on behalf of our partners.
 
 ## Partnerships
 
@@ -20,7 +21,7 @@ Together with our **[forte.io](https://forte.io)** partners we research into new
 
 EverKnow shares the vision of a decentralized and interoperable approach to support game related ecosystems' transparency, decentralisation and trust by link multiple chains together. Customers can choose the technology stack they see more attractive when they design new gaming features, our mission is to ensure a smooth transition to other techonology stacks can be operated when it becomes attractive or strategically relevant.
 
-Additionally our education and evangelisation effort ensures that game studios are empowered to introduce decentralised features and go beyond what was possible with the traditional game related economics. This is a trend that players are keen to explore in its full potential, and gain access to a wider range of fintech services to support the game economy.
+Additionally our education and evangelisation effort ensures that game studios are empowered to introduce decentralised features and go beyond what was possible with traditional models. This opens a number of opportunities that players are keen to explore in its full potentia while gaining access to a wider range of fintech services to support~ the game economy.
 
 Digital uniques and game related collectibles are also bound to undergo a significant upgrade in the coming years. We are excited about the possibility to enhance their multi chain interoperable features.
 
