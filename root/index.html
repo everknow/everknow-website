@@ -132,7 +132,7 @@ const renderer = {
       return text;
     }
 
-    let out = `<BR><img src="${href}" alt="${text}"`;
+    let out = `<BR><img src="${href.startsWith("root/")?href.substring(5):href}" alt="${text}"`;
     if (title) {
       out += ` title="${title}"`;
     }

@@ -1,7 +1,7 @@
 
 ## Interoperability 
 
-|[![ilp](img/ilp.png)](https://interledger.org)|[![ibc](img/cosmos.png)](https://cosmos.network)|[![substrate](img/substrate.png)](https://substrate.io)
+|[![ilp](root/img/ilp.png)](https://interledger.org)|[![ibc](root/img/cosmos.png)](https://cosmos.network)|[![substrate](root/img/substrate.png)](https://substrate.io)
 |:-|:-|:-|
 
 Our research into interoperability leverages and combines cutting edge features produced in the context of a pool of prominent solutions such as [IBC](https://ibc.cosmos.network/), [ILP](https://interledger.org) and [Substrate](https://substrate.io)
@@ -29,7 +29,7 @@ One of the primary challenge is to ensure **consensus** among the participants' 
 
 In recent years the the way to achieve consensus has eveolved from Bitcoin's Proof of Work (POW) towards more evolved forms of Proof of Stake (POS). POS techniques typically come with a lower carbon footprint.
 
-[![tendermint](img/tendermint.png)](https://tendermint.com)
+[![tendermint](root/img/tendermint.png)](https://tendermint.com)
 
 The ongoing research keeps producing more sophisticated and feature-rich Byzantine Fault Tolerant (BFT) consensus approaches.
 One of the technology that is getting traction nowadays is [Tendermint](https://tendermint.com)
