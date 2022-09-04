@@ -128,7 +128,16 @@ const renderer = {
     `;
   },
   image(href, title, text) {
-    return`<BR><img src="${href}">`;
+    if (href === null) {
+      return text;
+    }
+
+    let out = `<BR><img src="${href}" alt="${text}"`;
+    if (title) {
+      out += ` title="${title}"`;
+    }
+    out += '>';
+    return out;
   },
   table(header, body) {
     if (body) body = `<tbody>${body}</tbody>`;
