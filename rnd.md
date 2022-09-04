@@ -38,15 +38,15 @@ At EverKnow we pride ourselves of having experimented on advanced and innovative
 
 ## Governance
 
-Governance can be considered similar to consensus, as its purpose is also to come to an agreement among multiple participants. The distinction is primarily linked to the degree of human participation. To achieve this a decision making process is needed. A series of incentives and deterrents are put in place to encourage the fair and honest behaviour.
+Governance can be considered similar to consensus, as its purpose is also to come to an agreement among multiple participants. The distinction is primarily linked to the degree of people's participation. To achieve this a set of tools to support the decision making process is needed. Further to that, a series of incentives and deterrents can be put in place to encourage the fair and honest behaviour of the participants.
 
-This is still an aspect that is rapidly evolving. The state of the art involves the distribution of voting rights among a group of community stakeholders. The transparency of the operations can be monitored by a wide audience of participants, while the voting rights can be linearly or quadratically proportional to a quantifiable stake.
+This is still an aspect that is going through an intesnse evolution. The state of the art typically involves the distribution of voting rights among a group of community stakeholders. The transparency of the operations can be monitored by a wider audience, while the voting strength can be derived via a linear or quadratic function of a committed stake.
 
-Decentralized autonomous organizations (DAO) make large use of these approaches and are fast becoming the standard for projects creating self-sustainable applications and services in the blockchain industry. DAOs unlock new opportunities to manage configuration changes, allocate budget from a treasury, collaboratively monitor and grant special permissions to users.
+Decentralized autonomous organizations (DAO) make large use of these approaches and are fast becoming the standard for projects creating self-sustainable applications and services in the blockchain industry. DAOs unlock new opportunities to manage configuration changes, allocate budget from a treasury, collaboratively monitor distributed services and/or grant special permissions to users.
 
-The pool of decision makers can be extended to encourage the participation of the wider community. There are many uses already including social, media, investment, venture, art.
+In some scenarios the pool of decision makers can also be extended to the wider community. DAOs have already been applied to several use cases including social technology, media, investment, venture, art.
 
-EverKnow is actively researching in novel forms of governance that can be fairer and effective. Voting democratically is clearly an inspirational cultural guide towards this goal, and we believe this can be improved by combining it with an adequate technology.
+EverKnow is actively researching into novel forms of governance that can be fairer and effective. Democracy in our society clearly represents an inspirational cultural guide in this sense, and we believe it can be augmented with an adequate technology support.
 
 ## Automation
 
