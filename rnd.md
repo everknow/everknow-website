@@ -42,7 +42,7 @@ Governance can be considered similar to consensus, as its purpose is also to com
 
 This is an aspect that is still going through an intense evolution. The state of the art typically involves the distribution of voting rights among a group of community stakeholders. The transparency of the operations can be monitored by a wider audience, while the voting strength can be derived via a linear or quadratic function of a committed stake.
 
-Decentralized autonomous organizations (DAO) make large use of these approaches and are fast becoming the standard for projects creating self-sustainable applications and services in the blockchain industry. DAOs unlock new opportunities to manage configuration changes, allocate budget from a treasury, collaboratively monitor distributed services and/or grant special permissions to users.
+[Decentralized autonomous organizations (DAO)](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization) make large use of these approaches and are fast becoming the standard for projects creating self-sustainable applications and services in the blockchain industry. DAOs unlock new opportunities to manage configuration changes, allocate budget from a treasury, collaboratively monitor distributed services and/or grant special permissions to users.
 
 In some scenarios the pool of decision makers can also be extended to the wider community. DAOs have already been applied to several use cases including social technology, media, investment, venture, art.
 
