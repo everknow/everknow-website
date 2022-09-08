@@ -14,18 +14,6 @@ We are also experts in driving **[Research and Development (R&D) projects](rnd.m
 
 ## Partnerships
 
-
-[![forte](root/img/forte.png)](https://forte.io)
-
-Together with our **[forte.io](https://forte.io)** partners we research into new forms of interoperability to innovate the gaming industry. The use of DLT technologies in this market segment can be adapted to make new exciting features available to players and thus enrich the entertainment experience.
-
-**EverKnow** shares the vision of a decentralized and interoperable approach to support game related ecosystems' transparency, decentralisation and trust by link multiple chains together. Customers can choose the technology stack they see more attractive when they design new gaming features, our mission is to ensure a smooth transition to other techonology stacks can be operated when it becomes attractive or strategically relevant.
-
-Additionally our education and evangelisation effort ensures that game studios are empowered to introduce decentralised features and go beyond what was possible with traditional models. This opens a number of opportunities that players are keen to explore in its full potentia while gaining access to a wider range of fintech services to support~ the game economy.
-
-Digital uniques and game related collectibles are also bound to undergo a significant upgrade in the coming years. We are excited about the possibility to enhance their multi chain interoperable features.
-
-
 [![mocda](root/img/mocda.webp)](https://mocda.org)
 
 Together with our **[mocda.org](https://mocda.org)** partners we collaborate with creative minds. We are interested in exploring unconventional thinking as a driver for digital innovation.
